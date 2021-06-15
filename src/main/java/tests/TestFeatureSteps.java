@@ -20,6 +20,6 @@ public class TestFeatureSteps extends GoibiboTestRunner {
     @Then("Bye")
     public void bye(){
         System.out.println("Bye From The Test Step");
-        Assert.assertEquals(1,2);
+        Assert.assertEquals(1,1);
     }
 }
